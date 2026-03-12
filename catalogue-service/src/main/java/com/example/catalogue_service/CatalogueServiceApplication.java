@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class CatalogueServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CatalogueServiceApplication.class, args)
+		SpringApplication.run(CatalogueServiceApplication.class, args);
 	}
 
 }
