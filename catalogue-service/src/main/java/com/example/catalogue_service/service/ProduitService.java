@@ -1,4 +1,4 @@
-package com.example.catalogue_service.service
+package com.example.catalogue_service.service;
 
 import com.example.catalogue_service.domain.Produit;
 import com.example.catalogue_service.dto.ProduitMapper;
