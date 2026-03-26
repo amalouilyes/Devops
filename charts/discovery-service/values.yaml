@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: ilyesamalou/discovery-service
+  tag: latest
+  pullPolicy: Always
+service:
+  type: NodePort
+  port: 8761

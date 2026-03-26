@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: ilyesamalou/config-service
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 8888
